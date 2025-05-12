@@ -1,0 +1,3163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oki Sushi - Mobile Menu</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preload" href="images/sushi-hero-mobile.webp" as="image">
+  <!--Qr-code Script-->
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+  <!-- Modern image formats support -->
+  <script>
+    if (!('loading' in HTMLImageElement.prototype)) {
+      document.write('<script src="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.0.1/dist/loading-attribute-polyfill.min.js"><\/script>');
+    }
+  </script>
+
+</head>
+<body>
+  <!-- Mobile Header -->
+  <header class="header">
+    <button class="back-btn"><i class="fas fa-chevron-left"></i></button>
+    <h1 class="logo">OKI SUSHI</h1>
+    <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+    <span class="cart-count">0</span>
+  </header>
+
+  <!-- Mobile Search Bar -->
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search menu items...">
+    <button id="search-button"><i class="fas fa-search"></i></button>
+  </div>
+
+  <!-- Mobile Menu Content -->
+  <main class="mobile-container">
+    <!-- Hero Image -->
+    <div class="hero-image">
+      <img src="logo.png" alt="Fresh Sushi">
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="category-scroll">
+      <button data-category="all" class="active">All</button>
+      <button data-category="salads">Salads</button>
+      <button data-category="appetizer">Appetizer</button>
+      <button data-category="hot menu soups">Hot Menu soups</button>
+      <button data-category="noodles">Noodles</button>
+      <button data-category="rice">Rice</button>
+      <button data-category="chicken">Chicken</button>
+      <button data-category="beef">Beef</button>
+      <button data-category="sea food">Sea food</button>
+      <button data-category="futomaki pieces">Futomaki pieces</button>
+      <button data-category="hose maki pieces">Hose maki pieces</button>
+      <button data-category="urmaki pieces">Urmaki pieces</button>
+      <button data-category="temaki pieces">Temaki pieces</button>
+      <button data-category="nigiri pieces">Nigiri pieces</button>
+      <button data-category="sashimi pieces">Sashimi pieces</button>
+      <button data-category="sushi burger">Sushi Burger</button>
+      <button data-category="cold drinks">Cold drinks</button>
+      <button data-category="hot drinks">Hot drinks</button>
+      <button data-category="extra">Extra</button>
+      <button data-category="sweets">Sweets</button>
+      <button data-category="sushi set">Sushi set</button>
+    </div>
+
+
+
+
+  <!-- Menu Items -->
+  <div class="menu-items" id="menu-section">
+
+    
+
+<!-- Item: Crab salad -->
+<div class="menu-card" tabindex="0" data-category="salads">
+  <picture>
+    <source srcset="Products/CrabSalad.jpg" type="image/webp">
+    <source srcset="Products/CrabSalad.jpg" type="image/jpeg">
+    <img
+      src="Products/CrabSalad.jpg"
+      alt="CrabSalad"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crab salad</h3>
+    <span class="price">Price: 80000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crab salad to cart">+</button>
+</div>
+
+
+<!-- Item: Crab Salad Small -->
+  <div class="menu-card" tabindex="0" data-category="salads">
+  <picture>
+    <source srcset="Products/CrabSaladSmall.jpg" type="image/webp">
+    <source srcset="Products/CrabSaladSmall.jpg" type="image/jpeg">
+    <img
+      src="Products/CrabSaladSmall.jpg"
+      alt="CrabSaladSmall"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crab Salad Small</h3>
+    <span class="price">Price: 50000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crab Salad Small to cart">+</button>
+</div>
+
+
+<!-- Item: Tuna salad -->
+  <div class="menu-card" tabindex="0" data-category="salads">
+  <picture>
+    <source srcset="Products/TunaSalad.jpg" type="image/webp">
+    <source srcset="Products/TunaSalad.jpg" type="image/jpeg">
+    <img
+      src="Products/TunaSalad.jpg"
+      alt="TunaSalad"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Tuna salad</h3>
+    <span class="price">Price: 233000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Tuna salad to cart">+</button>
+</div>
+
+
+<!-- Item: Ghazal fish salad -->
+  <div class="menu-card" tabindex="0" data-category="salads">
+  <picture>
+    <source srcset="Products/GhazalFishSalad.jpg" type="image/webp">
+    <source srcset="Products/GhazalFishSalad.jpg" type="image/jpeg">
+    <img
+      src="Products/GhazalFishSalad.jpg"
+      alt="GhazalFishSalad"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Ghazal fish salad</h3>
+    <span class="price">Price: 150000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Ghazal fish salad to cart">+</button>
+</div>
+
+
+<!-- Item: Mixed salad -->
+  <div class="menu-card" tabindex="0" data-category="salads">
+  <picture>
+    <source srcset="Products/MixedSalad.jpg" type="image/webp">
+    <source srcset="Products/MixedSalad.jpg" type="image/jpeg">
+    <img
+      src="Products/MixedSalad.jpg"
+      alt="MixedSalad"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Mixed salad</h3>
+    <span class="price">Price: 240000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Mixed salad to cart">+</button>
+</div>
+
+
+<!-- Item: Kimichi salad -->
+  <div class="menu-card" tabindex="0" data-category="salads">
+  <picture>
+    <source srcset="Products/KimichiSalad.jpg" type="image/webp">
+    <source srcset="Products/KimichiSalad.jpg" type="image/jpeg">
+    <img
+      src="Products/KimichiSalad.jpg"
+      alt="KimichiSalad"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Kimichi salad</h3>
+    <span class="price">Price: 20000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Kimichi salad to cart">+</button>
+</div>
+
+
+<!-- Item: Salmon Salad -->
+  <div class="menu-card" tabindex="0" data-category="salads">
+  <picture>
+    <source srcset="Products/SalmonSalad.jpg" type="image/webp">
+    <source srcset="Products/SalmonSalad.jpg" type="image/jpeg">
+    <img
+      src="Products/SalmonSalad.jpg"
+      alt="SalmonSalad"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Salmon Salad</h3>
+    <span class="price">Price: 237000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Salmon Salad to cart">+</button>
+</div>
+
+
+<!-- Item: Vegetable salad -->
+  <div class="menu-card" tabindex="0" data-category="salads">
+  <picture>
+    <source srcset="Products/VegetableSalad.jpg" type="image/webp">
+    <source srcset="Products/VegetableSalad.jpg" type="image/jpeg">
+    <img
+      src="Products/VegetableSalad.jpg"
+      alt="VegetableSalad"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Vegetable salad</h3>
+    <span class="price">Price: 65000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Vegetable salad to cart">+</button>
+</div>
+
+
+<!-- Item: Spring roll (vegetables) -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/SpringRollVegetables.jpg" type="image/webp">
+    <source srcset="Products/SpringRollVegetables.jpg" type="image/jpeg">
+    <img
+      src="Products/SpringRollVegetables.jpg"
+      alt="SpringRollVegetables"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Spring roll (vegetables)</h3>
+    <span class="price">Price: 25000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Spring roll (vegetables) to cart">+</button>
+</div>
+
+
+<!-- Item: Spring roll (chicken) -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/SpringRollChicken.jpg" type="image/webp">
+    <source srcset="Products/SpringRollChicken.jpg" type="image/jpeg">
+    <img
+      src="Products/SpringRollChicken.jpg"
+      alt="SpringRollChicken"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Spring roll (chicken)</h3>
+    <span class="price">Price: 38500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Spring roll (chicken) to cart">+</button>
+</div>
+
+
+<!-- Item: Deep fried squid -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/DeepFriedSquid.jpg" type="image/webp">
+    <source srcset="Products/DeepFriedSquid.jpg" type="image/jpeg">
+    <img
+      src="Products/DeepFriedSquid.jpg"
+      alt="DeepFriedSquid"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Deep fried squid</h3>
+    <span class="price">Price: 135000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Deep fried squid to cart">+</button>
+</div>
+
+
+<!-- Item: Steamed chiken dumpling -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/SteamedChikenDumpling.jpg" type="image/webp">
+    <source srcset="Products/SteamedChikenDumpling.jpg" type="image/jpeg">
+    <img
+      src="Products/SteamedChikenDumpling.jpg"
+      alt="SteamedChikenDumpling"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Steamed chiken dumpling</h3>
+    <span class="price">Price: 38000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Steamed chiken dumpling to cart">+</button>
+</div>
+
+
+<!-- Item: Steamed beef dumpling -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/SteamedBeefDumpling.jpg" type="image/webp">
+    <source srcset="Products/SteamedBeefDumpling.jpg" type="image/jpeg">
+    <img
+      src="Products/SteamedBeefDumpling.jpg"
+      alt="SteamedBeefDumpling"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Steamed beef dumpling</h3>
+    <span class="price">Price: 59000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Steamed beef dumpling to cart">+</button>
+</div>
+
+
+<!-- Item: Steamed shrimp dumpling -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/SteamedShrimpDumpling.jpg" type="image/webp">
+    <source srcset="Products/SteamedShrimpDumpling.jpg" type="image/jpeg">
+    <img
+      src="Products/SteamedShrimpDumpling.jpg"
+      alt="SteamedShrimpDumpling"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Steamed shrimp dumpling</h3>
+    <span class="price">Price: 65000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Steamed shrimp dumpling to cart">+</button>
+</div>
+
+
+<!-- Item: Fried chicken dumpling -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/FriedChickenDumpling.jpg" type="image/webp">
+    <source srcset="Products/FriedChickenDumpling.jpg" type="image/jpeg">
+    <img
+      src="Products/FriedChickenDumpling.jpg"
+      alt="FriedChickenDumpling"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Fried chicken dumpling</h3>
+    <span class="price">Price: 40000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Fried chicken dumpling to cart">+</button>
+</div>
+
+
+<!-- Item: Fried beef dumpling -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/FriedBeefDumpling.jpg" type="image/webp">
+    <source srcset="Products/FriedBeefDumpling.jpg" type="image/jpeg">
+    <img
+      src="Products/FriedBeefDumpling.jpg"
+      alt="FriedBeefDumpling"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Fried beef dumpling</h3>
+    <span class="price">Price: 66000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Fried beef dumpling to cart">+</button>
+</div>
+
+
+<!-- Item: Fried shrimp dumpling -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/FriedShrimpDumpling.jpg" type="image/webp">
+    <source srcset="Products/FriedShrimpDumpling.jpg" type="image/jpeg">
+    <img
+      src="Products/FriedShrimpDumpling.jpg"
+      alt="FriedShrimpDumpling"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Fried shrimp dumpling</h3>
+    <span class="price">Price: 76000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Fried shrimp dumpling to cart">+</button>
+</div>
+
+
+<!-- Item: Dynamite shrimp -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/DynamiteShrimp.jpg" type="image/webp">
+    <source srcset="Products/DynamiteShrimp.jpg" type="image/jpeg">
+    <img
+      src="Products/DynamiteShrimp.jpg"
+      alt="DynamiteShrimp"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Dynamite shrimp</h3>
+    <span class="price">Price: 82000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Dynamite shrimp to cart">+</button>
+</div>
+
+
+<!-- Item: Tempura -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/Tempura.jpg" type="image/webp">
+    <source srcset="Products/Tempura.jpg" type="image/jpeg">
+    <img
+      src="Products/Tempura.jpg"
+      alt="Tempura"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Tempura</h3>
+    <span class="price">Price: 77000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Tempura to cart">+</button>
+</div>
+
+
+<!-- Item: Edamame -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/Edamame.jpg" type="image/webp">
+    <source srcset="Products/Edamame.jpg" type="image/jpeg">
+    <img
+      src="Products/Edamame.jpg"
+      alt="Edamame"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Edamame</h3>
+    <span class="price">Price: 49000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Edamame to cart">+</button>
+</div>
+
+
+<!-- Item: Sushi Fries -->
+  <div class="menu-card" tabindex="0" data-category="appetizer">
+  <picture>
+    <source srcset="Products/SushiFries.jpg" type="image/webp">
+    <source srcset="Products/SushiFries.jpg" type="image/jpeg">
+    <img
+      src="Products/SushiFries.jpg"
+      alt="SushiFries"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Sushi Fries</h3>
+    <span class="price">Price: 91000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Sushi Fries to cart">+</button>
+</div>
+
+
+<!-- Item: Vegetable soup -->
+  <div class="menu-card" tabindex="0" data-category="hot menu soups">
+  <picture>
+    <source srcset="Products/VegetableSoup.jpg" type="image/webp">
+    <source srcset="Products/VegetableSoup.jpg" type="image/jpeg">
+    <img
+      src="Products/VegetableSoup.jpg"
+      alt="VegetableSoup"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Vegetable soup</h3>
+    <span class="price">Price: 35000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Vegetable soup to cart">+</button>
+</div>
+
+
+<!-- Item: Hot&sour vegetable -->
+  <div class="menu-card" tabindex="0" data-category="hot menu soups">
+  <picture>
+    <source srcset="Products/Hot&sourVegetable.jpg" type="image/webp">
+    <source srcset="Products/Hot&sourVegetable.jpg" type="image/jpeg">
+    <img
+      src="Products/Hot&sourVegetable.jpg"
+      alt="Hot&sourVegetable"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Hot&sour vegetable</h3>
+    <span class="price">Price: 35000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Hot&sour vegetable to cart">+</button>
+</div>
+
+
+<!-- Item: Hot & sour chicken -->
+  <div class="menu-card" tabindex="0" data-category="hot menu soups">
+  <picture>
+    <source srcset="Products/Hot&SourChicken.jpg" type="image/webp">
+    <source srcset="Products/Hot&SourChicken.jpg" type="image/jpeg">
+    <img
+      src="Products/Hot&SourChicken.jpg"
+      alt="Hot&SourChicken"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Hot & sour chicken</h3>
+    <span class="price">Price: 43000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Hot & sour chicken to cart">+</button>
+</div>
+
+
+<!-- Item: Hot & sour shrimp -->
+  <div class="menu-card" tabindex="0" data-category="hot menu soups">
+  <picture>
+    <source srcset="Products/Hot&SourShrimp.jpg" type="image/webp">
+    <source srcset="Products/Hot&SourShrimp.jpg" type="image/jpeg">
+    <img
+      src="Products/Hot&SourShrimp.jpg"
+      alt="Hot&SourShrimp"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Hot & sour shrimp</h3>
+    <span class="price">Price: 62000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Hot & sour shrimp to cart">+</button>
+</div>
+
+
+<!-- Item: Wonton chicken soup -->
+  <div class="menu-card" tabindex="0" data-category="hot menu soups">
+  <picture>
+    <source srcset="Products/WontonChickenSoup.jpg" type="image/webp">
+    <source srcset="Products/WontonChickenSoup.jpg" type="image/jpeg">
+    <img
+      src="Products/WontonChickenSoup.jpg"
+      alt="WontonChickenSoup"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Wonton chicken soup</h3>
+    <span class="price">Price: 28000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Wonton chicken soup to cart">+</button>
+</div>
+
+
+<!-- Item: Miso soup -->
+  <div class="menu-card" tabindex="0" data-category="hot menu soups">
+  <picture>
+    <source srcset="Products/MisoSoup.jpg" type="image/webp">
+    <source srcset="Products/MisoSoup.jpg" type="image/jpeg">
+    <img
+      src="Products/MisoSoup.jpg"
+      alt="MisoSoup"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Miso soup</h3>
+    <span class="price">Price: 34000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Miso soup to cart">+</button>
+</div>
+
+
+<!-- Item: Wonton shrimp soup -->
+  <div class="menu-card" tabindex="0" data-category="hot menu soups">
+  <picture>
+    <source srcset="Products/WontonShrimpSoup.jpg" type="image/webp">
+    <source srcset="Products/WontonShrimpSoup.jpg" type="image/jpeg">
+    <img
+      src="Products/WontonShrimpSoup.jpg"
+      alt="WontonShrimpSoup"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Wonton shrimp soup</h3>
+    <span class="price">Price: 48000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Wonton shrimp soup to cart">+</button>
+</div>
+
+
+<!-- Item: Tom yum soup -->
+  <div class="menu-card" tabindex="0" data-category="hot menu soups">
+  <picture>
+    <source srcset="Products/TomYumSoup.jpg" type="image/webp">
+    <source srcset="Products/TomYumSoup.jpg" type="image/jpeg">
+    <img
+      src="Products/TomYumSoup.jpg"
+      alt="TomYumSoup"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Tom yum soup</h3>
+    <span class="price">Price: 69500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Tom yum soup to cart">+</button>
+</div>
+
+
+<!-- Item: Ramen soup -->
+  <div class="menu-card" tabindex="0" data-category="hot menu soups">
+  <picture>
+    <source srcset="Products/RamenSoup.jpg" type="image/webp">
+    <source srcset="Products/RamenSoup.jpg" type="image/jpeg">
+    <img
+      src="Products/RamenSoup.jpg"
+      alt="RamenSoup"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Ramen soup</h3>
+    <span class="price">Price: 72000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Ramen soup to cart">+</button>
+</div>
+
+
+<!-- Item: Vegetable noodles -->
+  <div class="menu-card" tabindex="0" data-category="noodles">
+  <picture>
+    <source srcset="Products/VegetableNoodles.jpg" type="image/webp">
+    <source srcset="Products/VegetableNoodles.jpg" type="image/jpeg">
+    <img
+      src="Products/VegetableNoodles.jpg"
+      alt="VegetableNoodles"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Vegetable noodles</h3>
+    <span class="price">Price: 42000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Vegetable noodles to cart">+</button>
+</div>
+
+
+<!-- Item: Soft noodles chicken -->
+  <div class="menu-card" tabindex="0" data-category="noodles">
+  <picture>
+    <source srcset="Products/SoftNoodlesChicken.jpg" type="image/webp">
+    <source srcset="Products/SoftNoodlesChicken.jpg" type="image/jpeg">
+    <img
+      src="Products/SoftNoodlesChicken.jpg"
+      alt="SoftNoodlesChicken"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Soft noodles chicken</h3>
+    <span class="price">Price: 61000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Soft noodles chicken to cart">+</button>
+</div>
+
+
+<!-- Item: Soft noodles beef -->
+  <div class="menu-card" tabindex="0" data-category="noodles">
+  <picture>
+    <source srcset="Products/SoftNoodlesBeef.jpg" type="image/webp">
+    <source srcset="Products/SoftNoodlesBeef.jpg" type="image/jpeg">
+    <img
+      src="Products/SoftNoodlesBeef.jpg"
+      alt="SoftNoodlesBeef"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Soft noodles beef</h3>
+    <span class="price">Price: 88000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Soft noodles beef to cart">+</button>
+</div>
+
+
+<!-- Item: Soft noodles shrimp -->
+  <div class="menu-card" tabindex="0" data-category="noodles">
+  <picture>
+    <source srcset="Products/SoftNoodlesShrimp.jpg" type="image/webp">
+    <source srcset="Products/SoftNoodlesShrimp.jpg" type="image/jpeg">
+    <img
+      src="Products/SoftNoodlesShrimp.jpg"
+      alt="SoftNoodlesShrimp"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Soft noodles shrimp</h3>
+    <span class="price">Price: 89000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Soft noodles shrimp to cart">+</button>
+</div>
+
+
+<!-- Item: Oki noodles (shrimp&squid) -->
+  <div class="menu-card" tabindex="0" data-category="noodles">
+  <picture>
+    <source srcset="Products/OkiNoodles.jpg" type="image/webp">
+    <source srcset="Products/OkiNoodles.jpg" type="image/jpeg">
+    <img
+      src="Products/OkiNoodles.jpg"
+      alt="OkiNoodles"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Oki noodles (shrimp&squid)</h3>
+    <span class="price">Price: 110000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Oki noodles (shrimp&squid) to cart">+</button>
+</div>
+
+
+<!-- Item: Steamed rice -->
+  <div class="menu-card" tabindex="0" data-category="rice">
+  <picture>
+    <source srcset="Products/SteamedRice.jpg" type="image/webp">
+    <source srcset="Products/SteamedRice.jpg" type="image/jpeg">
+    <img
+      src="Products/SteamedRice.jpg"
+      alt="SteamedRice"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Steamed rice</h3>
+    <span class="price">Price: 9500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Steamed rice to cart">+</button>
+</div>
+
+
+<!-- Item: Vegetable fried rice -->
+  <div class="menu-card" tabindex="0" data-category="rice">
+  <picture>
+    <source srcset="Products/VegetableFriedRice.jpg" type="image/webp">
+    <source srcset="Products/VegetableFriedRice.jpg" type="image/jpeg">
+    <img
+      src="Products/VegetableFriedRice.jpg"
+      alt="VegetableFriedRice"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Vegetable fried rice</h3>
+    <span class="price">Price: 32500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Vegetable fried rice to cart">+</button>
+</div>
+
+
+<!-- Item: Egg fried rice vegetable -->
+  <div class="menu-card" tabindex="0" data-category="rice">
+  <picture>
+    <source srcset="Products/EggFriedRiceVegetable.jpg" type="image/webp">
+    <source srcset="Products/EggFriedRiceVegetable.jpg" type="image/jpeg">
+    <img
+      src="Products/EggFriedRiceVegetable.jpg"
+      alt="EggFriedRiceVegetable"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Egg fried rice vegetable</h3>
+    <span class="price">Price: 46500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Egg fried rice vegetable to cart">+</button>
+</div>
+
+
+<!-- Item: Egg fried rice chicken -->
+  <div class="menu-card" tabindex="0" data-category="rice">
+  <picture>
+    <source srcset="Products/EggFriedRiceChicken.jpg" type="image/webp">
+    <source srcset="Products/EggFriedRiceChicken.jpg" type="image/jpeg">
+    <img
+      src="Products/EggFriedRiceChicken.jpg"
+      alt="EggFriedRiceChicken"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Egg fried rice chicken</h3>
+    <span class="price">Price: 72000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Egg fried rice chicken to cart">+</button>
+</div>
+
+
+<!-- Item: Egg fried rice beef -->
+  <div class="menu-card" tabindex="0" data-category="rice">
+  <picture>
+    <source srcset="Products/EggFriedRiceBeef.jpg" type="image/webp">
+    <source srcset="Products/EggFriedRiceBeef.jpg" type="image/jpeg">
+    <img
+      src="Products/EggFriedRiceBeef.jpg"
+      alt="EggFriedRiceBeef"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Egg fried rice beef</h3>
+    <span class="price">Price: 106000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Egg fried rice beef to cart">+</button>
+</div>
+
+
+<!-- Item: Egg fried rice shrimp -->
+  <div class="menu-card" tabindex="0" data-category="rice">
+  <picture>
+    <source srcset="Products/EggFriedRiceShrimp.jpg" type="image/webp">
+    <source srcset="Products/EggFriedRiceShrimp.jpg" type="image/jpeg">
+    <img
+      src="Products/EggFriedRiceShrimp.jpg"
+      alt="EggFriedRiceShrimp"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Egg fried rice shrimp</h3>
+    <span class="price">Price: 114000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Egg fried rice shrimp to cart">+</button>
+</div>
+
+
+<!-- Item: Chicken cubes with cashew nuts -->
+  <div class="menu-card" tabindex="0" data-category="chicken">
+  <picture>
+    <source srcset="Products/ChickenCubesWithCashewNuts.jpg" type="image/webp">
+    <source srcset="Products/ChickenCubesWithCashewNuts.jpg" type="image/jpeg">
+    <img
+      src="Products/ChickenCubesWithCashewNuts.jpg"
+      alt="ChickenCubesWithCashewNuts"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Chicken cubes with cashew nuts</h3>
+    <span class="price">Price: 89000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Chicken cubes with cashew nuts to cart">+</button>
+</div>
+
+
+<!-- Item: Chicken with black mushroom &bamboo -->
+  <div class="menu-card" tabindex="0" data-category="chicken">
+  <picture>
+    <source srcset="Products/ChickenWithBlackMushroom&bamboo.jpg" type="image/webp">
+    <source srcset="Products/ChickenWithBlackMushroom&bamboo.jpg" type="image/jpeg">
+    <img
+      src="Products/ChickenWithBlackMushroom&bamboo.jpg"
+      alt="ChickenWithBlackMushroom&bamboo"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Chicken with black mushroom &bamboo</h3>
+    <span class="price">Price: 109000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Chicken with black mushroom &bamboo to cart">+</button>
+</div>
+
+
+<!-- Item: Chicken with ginger & onion -->
+  <div class="menu-card" tabindex="0" data-category="chicken">
+  <picture>
+    <source srcset="Products/ChickenWithGinger&Onion.jpg" type="image/webp">
+    <source srcset="Products/ChickenWithGinger&Onion.jpg" type="image/jpeg">
+    <img
+      src="Products/ChickenWithGinger&Onion.jpg"
+      alt="ChickenWithGinger&Onion"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Chicken with ginger & onion</h3>
+    <span class="price">Price: 80000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Chicken with ginger & onion to cart">+</button>
+</div>
+
+
+<!-- Item: Japanese chicken curry -->
+  <div class="menu-card" tabindex="0" data-category="chicken">
+  <picture>
+    <source srcset="Products/JapaneseChickenCurry.jpg" type="image/webp">
+    <source srcset="Products/JapaneseChickenCurry.jpg" type="image/jpeg">
+    <img
+      src="Products/JapaneseChickenCurry.jpg"
+      alt="JapaneseChickenCurry"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Japanese chicken curry</h3>
+    <span class="price">Price: 87000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Japanese chicken curry to cart">+</button>
+</div>
+
+
+<!-- Item: Beef with green pepper -->
+  <div class="menu-card" tabindex="0" data-category="beef">
+  <picture>
+    <source srcset="Products/BeefWithGreenPepper.jpg" type="image/webp">
+    <source srcset="Products/BeefWithGreenPepper.jpg" type="image/jpeg">
+    <img
+      src="Products/BeefWithGreenPepper.jpg"
+      alt="BeefWithGreenPepper"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Beef with green pepper</h3>
+    <span class="price">Price: 130000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Beef with green pepper to cart">+</button>
+</div>
+
+
+<!-- Item: Slice beef with bumboo & black mushroom -->
+  <div class="menu-card" tabindex="0" data-category="beef">
+  <picture>
+    <source srcset="Products/SliceBeefWithBumboo&BlackMushroom.jpg" type="image/webp">
+    <source srcset="Products/SliceBeefWithBumboo&BlackMushroom.jpg" type="image/jpeg">
+    <img
+      src="Products/SliceBeefWithBumboo&BlackMushroom.jpg"
+      alt="SliceBeefWithBumboo&BlackMushroom"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Slice beef with bumboo & black mushroom</h3>
+    <span class="price">Price: 173000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Slice beef with bumboo & black mushroom to cart">+</button>
+</div>
+
+
+<!-- Item: Slice beef with ginger & onion -->
+  <div class="menu-card" tabindex="0" data-category="beef">
+  <picture>
+    <source srcset="Products/SliceBeefWithGinger&Onion.jpg" type="image/webp">
+    <source srcset="Products/SliceBeefWithGinger&Onion.jpg" type="image/jpeg">
+    <img
+      src="Products/SliceBeefWithGinger&Onion.jpg"
+      alt="SliceBeefWithGinger&Onion"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Slice beef with ginger & onion</h3>
+    <span class="price">Price: 138000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Slice beef with ginger & onion to cart">+</button>
+</div>
+
+
+<!-- Item: Beef with cashew -->
+  <div class="menu-card" tabindex="0" data-category="beef">
+  <picture>
+    <source srcset="Products/BeefWithCashew.jpg" type="image/webp">
+    <source srcset="Products/BeefWithCashew.jpg" type="image/jpeg">
+    <img
+      src="Products/BeefWithCashew.jpg"
+      alt="BeefWithCashew"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Beef with cashew</h3>
+    <span class="price">Price: 151000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Beef with cashew to cart">+</button>
+</div>
+
+
+<!-- Item: Prawns with cashew nuts -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/PrawnsWithCashewNuts.jpg" type="image/webp">
+    <source srcset="Products/PrawnsWithCashewNuts.jpg" type="image/jpeg">
+    <img
+      src="Products/PrawnsWithCashewNuts.jpg"
+      alt="PrawnsWithCashewNuts"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Prawns with cashew nuts</h3>
+    <span class="price">Price: 181000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Prawns with cashew nuts to cart">+</button>
+</div>
+
+
+<!-- Item: Prawns with mushroom &bamboo -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/PrawnsWithMushroom&bamboo.jpg" type="image/webp">
+    <source srcset="Products/PrawnsWithMushroom&bamboo.jpg" type="image/jpeg">
+    <img
+      src="Products/PrawnsWithMushroom&bamboo.jpg"
+      alt="PrawnsWithMushroom&bamboo"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Prawns with mushroom &bamboo</h3>
+    <span class="price">Price: 203000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Prawns with mushroom &bamboo to cart">+</button>
+</div>
+
+
+<!-- Item: Prawns with vegetable -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/PrawnsWithVegetable.jpg" type="image/webp">
+    <source srcset="Products/PrawnsWithVegetable.jpg" type="image/jpeg">
+    <img
+      src="Products/PrawnsWithVegetable.jpg"
+      alt="PrawnsWithVegetable"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Prawns with vegetable</h3>
+    <span class="price">Price: 165000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Prawns with vegetable to cart">+</button>
+</div>
+
+
+<!-- Item: Futo salmon -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/FutoSalmon.jpg" type="image/webp">
+    <source srcset="Products/FutoSalmon.jpg" type="image/jpeg">
+    <img
+      src="Products/FutoSalmon.jpg"
+      alt="FutoSalmon"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Futo salmon</h3>
+    <span class="price">Price: 52000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Futo salmon to cart">+</button>
+</div>
+
+
+<!-- Item: Futo tuna -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/FutoTuna.jpg" type="image/webp">
+    <source srcset="Products/FutoTuna.jpg" type="image/jpeg">
+    <img
+      src="Products/FutoTuna.jpg"
+      alt="FutoTuna"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Futo tuna</h3>
+    <span class="price">Price: 52000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Futo tuna to cart">+</button>
+</div>
+
+
+<!-- Item: Futo shrimp -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/FutoShrimp.jpg" type="image/webp">
+    <source srcset="Products/FutoShrimp.jpg" type="image/jpeg">
+    <img
+      src="Products/FutoShrimp.jpg"
+      alt="FutoShrimp"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Futo shrimp</h3>
+    <span class="price">Price: 29300</span>
+  </div>
+  <button class="add-btn" aria-label="Add Futo shrimp to cart">+</button>
+</div>
+
+
+<!-- Item: Futo hawai -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/FutoHawai.jpg" type="image/webp">
+    <source srcset="Products/FutoHawai.jpg" type="image/jpeg">
+    <img
+      src="Products/FutoHawai.jpg"
+      alt="FutoHawai"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Futo hawai</h3>
+    <span class="price">Price: 65200</span>
+  </div>
+  <button class="add-btn" aria-label="Add Futo hawai to cart">+</button>
+</div>
+
+
+<!-- Item: Avocado Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/AvocadoMaki.jpg" type="image/webp">
+    <source srcset="Products/AvocadoMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/AvocadoMaki.jpg"
+      alt="AvocadoMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Avocado Maki</h3>
+    <span class="price">Price: 23000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Avocado Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Kappa Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/KappaMaki.jpg" type="image/webp">
+    <source srcset="Products/KappaMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/KappaMaki.jpg"
+      alt="KappaMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Kappa Maki</h3>
+    <span class="price">Price: 14400</span>
+  </div>
+  <button class="add-btn" aria-label="Add Kappa Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Mango Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/MangoMaki.jpg" type="image/webp">
+    <source srcset="Products/MangoMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/MangoMaki.jpg"
+      alt="MangoMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Mango Maki</h3>
+    <span class="price">Price: 27000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Mango Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Cheese Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/CheeseMaki.jpg" type="image/webp">
+    <source srcset="Products/CheeseMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/CheeseMaki.jpg"
+      alt="CheeseMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Cheese Maki</h3>
+    <span class="price">Price: 27000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Cheese Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Crab Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/CrabMaki.jpg" type="image/webp">
+    <source srcset="Products/CrabMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/CrabMaki.jpg"
+      alt="CrabMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crab Maki</h3>
+    <span class="price">Price: 26300</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crab Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Shrimp Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/ShrimpMaki.jpg" type="image/webp">
+    <source srcset="Products/ShrimpMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/ShrimpMaki.jpg"
+      alt="ShrimpMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Shrimp Maki</h3>
+    <span class="price">Price: 26200</span>
+  </div>
+  <button class="add-btn" aria-label="Add Shrimp Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Tuna Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/TunaMaki.jpg" type="image/webp">
+    <source srcset="Products/TunaMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/TunaMaki.jpg"
+      alt="TunaMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Tuna Maki</h3>
+    <span class="price">Price: 52000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Tuna Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Salmon Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/SalmonMaki.jpg" type="image/webp">
+    <source srcset="Products/SalmonMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/SalmonMaki.jpg"
+      alt="SalmonMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Salmon Maki</h3>
+    <span class="price">Price: 52000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Salmon Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Baby corn Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/BabyCornMaki.jpg" type="image/webp">
+    <source srcset="Products/BabyCornMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/BabyCornMaki.jpg"
+      alt="BabyCornMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Baby corn Maki</h3>
+    <span class="price">Price: 27500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Baby corn Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Salmon skin Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/SalmonSkinMaki.jpg" type="image/webp">
+    <source srcset="Products/SalmonSkinMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/SalmonSkinMaki.jpg"
+      alt="SalmonSkinMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Salmon skin Maki</h3>
+    <span class="price">Price: 20500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Salmon skin Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Smoked salmon -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/SmokedSalmon.jpg" type="image/webp">
+    <source srcset="Products/SmokedSalmon.jpg" type="image/jpeg">
+    <img
+      src="Products/SmokedSalmon.jpg"
+      alt="SmokedSalmon"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Smoked salmon</h3>
+    <span class="price">Price: 90500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Smoked salmon to cart">+</button>
+</div>
+
+
+<!-- Item: Philli roll -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/PhilliRoll.jpg" type="image/webp">
+    <source srcset="Products/PhilliRoll.jpg" type="image/jpeg">
+    <img
+      src="Products/PhilliRoll.jpg"
+      alt="PhilliRoll"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Philli roll</h3>
+    <span class="price">Price: 84000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Philli roll to cart">+</button>
+</div>
+
+
+<!-- Item: Spicy salmon -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/SpicySalmon.jpg" type="image/webp">
+    <source srcset="Products/SpicySalmon.jpg" type="image/jpeg">
+    <img
+      src="Products/SpicySalmon.jpg"
+      alt="SpicySalmon"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Spicy salmon</h3>
+    <span class="price">Price: 80000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Spicy salmon to cart">+</button>
+</div>
+
+
+<!-- Item: Spicy Tuna -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/SpicyTuna.jpg" type="image/webp">
+    <source srcset="Products/SpicyTuna.jpg" type="image/jpeg">
+    <img
+      src="Products/SpicyTuna.jpg"
+      alt="SpicyTuna"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Spicy Tuna</h3>
+    <span class="price">Price: 80000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Spicy Tuna to cart">+</button>
+</div>
+
+
+<!-- Item: Crispy shrimp -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/CrispyShrimp.jpg" type="image/webp">
+    <source srcset="Products/CrispyShrimp.jpg" type="image/jpeg">
+    <img
+      src="Products/CrispyShrimp.jpg"
+      alt="CrispyShrimp"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crispy shrimp</h3>
+    <span class="price">Price: 55000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crispy shrimp to cart">+</button>
+</div>
+
+
+<!-- Item: American roll -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/AmericanRoll.jpg" type="image/webp">
+    <source srcset="Products/AmericanRoll.jpg" type="image/jpeg">
+    <img
+      src="Products/AmericanRoll.jpg"
+      alt="AmericanRoll"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>American roll</h3>
+    <span class="price">Price: 47000</span>
+  </div>
+  <button class="add-btn" aria-label="Add American roll to cart">+</button>
+</div>
+
+
+<!-- Item: California roll -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/CaliforniaRoll.jpg" type="image/webp">
+    <source srcset="Products/CaliforniaRoll.jpg" type="image/jpeg">
+    <img
+      src="Products/CaliforniaRoll.jpg"
+      alt="CaliforniaRoll"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>California roll</h3>
+    <span class="price">Price: 44000</span>
+  </div>
+  <button class="add-btn" aria-label="Add California roll to cart">+</button>
+</div>
+
+
+<!-- Item: Mango California roll -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/MangoCaliforniaRoll.jpg" type="image/webp">
+    <source srcset="Products/MangoCaliforniaRoll.jpg" type="image/jpeg">
+    <img
+      src="Products/MangoCaliforniaRoll.jpg"
+      alt="MangoCaliforniaRoll"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Mango California roll</h3>
+    <span class="price">Price: 36500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Mango California roll to cart">+</button>
+</div>
+
+
+<!-- Item: Sesame roll -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/SesameRoll.jpg" type="image/webp">
+    <source srcset="Products/SesameRoll.jpg" type="image/jpeg">
+    <img
+      src="Products/SesameRoll.jpg"
+      alt="SesameRoll"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Sesame roll</h3>
+    <span class="price">Price: 30000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Sesame roll to cart">+</button>
+</div>
+
+
+<!-- Item: Mango Wrap -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/MangoWrap.jpg" type="image/webp">
+    <source srcset="Products/MangoWrap.jpg" type="image/jpeg">
+    <img
+      src="Products/MangoWrap.jpg"
+      alt="MangoWrap"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Mango Wrap</h3>
+    <span class="price">Price: 59000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Mango Wrap to cart">+</button>
+</div>
+
+
+<!-- Item: Rainbow salmon -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/RainbowSalmon.jpg" type="image/webp">
+    <source srcset="Products/RainbowSalmon.jpg" type="image/jpeg">
+    <img
+      src="Products/RainbowSalmon.jpg"
+      alt="RainbowSalmon"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Rainbow salmon</h3>
+    <span class="price">Price: 69800</span>
+  </div>
+  <button class="add-btn" aria-label="Add Rainbow salmon to cart">+</button>
+</div>
+
+
+<!-- Item: Volcano roll -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/VolcanoRoll.jpg" type="image/webp">
+    <source srcset="Products/VolcanoRoll.jpg" type="image/jpeg">
+    <img
+      src="Products/VolcanoRoll.jpg"
+      alt="VolcanoRoll"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Volcano roll</h3>
+    <span class="price">Price: 50600</span>
+  </div>
+  <button class="add-btn" aria-label="Add Volcano roll to cart">+</button>
+</div>
+
+
+<!-- Item: Crazy Maki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/CrazyMaki.jpg" type="image/webp">
+    <source srcset="Products/CrazyMaki.jpg" type="image/jpeg">
+    <img
+      src="Products/CrazyMaki.jpg"
+      alt="CrazyMaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crazy Maki</h3>
+    <span class="price">Price: 43800</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crazy Maki to cart">+</button>
+</div>
+
+
+<!-- Item: Dragon roll -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/DragonRoll.jpg" type="image/webp">
+    <source srcset="Products/DragonRoll.jpg" type="image/jpeg">
+    <img
+      src="Products/DragonRoll.jpg"
+      alt="DragonRoll"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Dragon roll</h3>
+    <span class="price">Price: 48500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Dragon roll to cart">+</button>
+</div>
+
+
+<!-- Item: Rose Dragon -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/RoseDragon.jpg" type="image/webp">
+    <source srcset="Products/RoseDragon.jpg" type="image/jpeg">
+    <img
+      src="Products/RoseDragon.jpg"
+      alt="RoseDragon"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Rose Dragon</h3>
+    <span class="price">Price: 45000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Rose Dragon to cart">+</button>
+</div>
+
+
+<!-- Item: Oki Dragon -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/OkiDragon.jpg" type="image/webp">
+    <source srcset="Products/OkiDragon.jpg" type="image/jpeg">
+    <img
+      src="Products/OkiDragon.jpg"
+      alt="OkiDragon"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Oki Dragon</h3>
+    <span class="price">Price: 47500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Oki Dragon to cart">+</button>
+</div>
+
+
+<!-- Item: Limeyaki -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/Limeyaki.jpg" type="image/webp">
+    <source srcset="Products/Limeyaki.jpg" type="image/jpeg">
+    <img
+      src="Products/Limeyaki.jpg"
+      alt="Limeyaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Limeyaki</h3>
+    <span class="price">Price: 65000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Limeyaki to cart">+</button>
+</div>
+
+
+<!-- Item: Wakami -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/Wakami.jpg" type="image/webp">
+    <source srcset="Products/Wakami.jpg" type="image/jpeg">
+    <img
+      src="Products/Wakami.jpg"
+      alt="Wakami"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Wakami</h3>
+    <span class="price">Price: 65000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Wakami to cart">+</button>
+</div>
+
+
+<!-- Item: Chilly cheese -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/ChillyCheese.jpg" type="image/webp">
+    <source srcset="Products/ChillyCheese.jpg" type="image/jpeg">
+    <img
+      src="Products/ChillyCheese.jpg"
+      alt="ChillyCheese"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Chilly cheese</h3>
+    <span class="price">Price: 42500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Chilly cheese to cart">+</button>
+</div>
+
+
+<!-- Item: Crunchy crab -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/CrunchyCrab.jpg" type="image/webp">
+    <source srcset="Products/CrunchyCrab.jpg" type="image/jpeg">
+    <img
+      src="Products/CrunchyCrab.jpg"
+      alt="CrunchyCrab"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crunchy crab</h3>
+    <span class="price">Price: 39000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crunchy crab to cart">+</button>
+</div>
+
+
+<!-- Item: Super dynamite -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/SuperDynamite.jpg" type="image/webp">
+    <source srcset="Products/SuperDynamite.jpg" type="image/jpeg">
+    <img
+      src="Products/SuperDynamite.jpg"
+      alt="SuperDynamite"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Super dynamite</h3>
+    <span class="price">Price: 59000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Super dynamite to cart">+</button>
+</div>
+
+
+<!-- Item: Crazy shrimp -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/CrazyShrimp.jpg" type="image/webp">
+    <source srcset="Products/CrazyShrimp.jpg" type="image/jpeg">
+    <img
+      src="Products/CrazyShrimp.jpg"
+      alt="CrazyShrimp"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crazy shrimp</h3>
+    <span class="price">Price: 51500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crazy shrimp to cart">+</button>
+</div>
+
+
+<!-- Item: Kiss of fire -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/KissOfFire.jpg" type="image/webp">
+    <source srcset="Products/KissOfFire.jpg" type="image/jpeg">
+    <img
+      src="Products/KissOfFire.jpg"
+      alt="KissOfFire"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Kiss of fire</h3>
+    <span class="price">Price: 77500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Kiss of fire to cart">+</button>
+</div>
+
+
+<!-- Item: Rainbow -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/Rainbow.jpg" type="image/webp">
+    <source srcset="Products/Rainbow.jpg" type="image/jpeg">
+    <img
+      src="Products/Rainbow.jpg"
+      alt="Rainbow"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Rainbow</h3>
+    <span class="price">Price: 60000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Rainbow to cart">+</button>
+</div>
+
+
+<!-- Item: Wasabi roll -->
+  <div class="menu-card" tabindex="0" data-category="sea food">
+  <picture>
+    <source srcset="Products/WasabiRoll.jpg" type="image/webp">
+    <source srcset="Products/WasabiRoll.jpg" type="image/jpeg">
+    <img
+      src="Products/WasabiRoll.jpg"
+      alt="WasabiRoll"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Wasabi roll</h3>
+    <span class="price">Price: 69800</span>
+  </div>
+  <button class="add-btn" aria-label="Add Wasabi roll to cart">+</button>
+</div>
+
+
+<!-- Item: Tuna Temaki -->
+  <div class="menu-card" tabindex="0" data-category="temaki pieces">
+  <picture>
+    <source srcset="Products/TunaTemaki.jpg" type="image/webp">
+    <source srcset="Products/TunaTemaki.jpg" type="image/jpeg">
+    <img
+      src="Products/TunaTemaki.jpg"
+      alt="TunaTemaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Tuna Temaki</h3>
+    <span class="price">Price: 73200</span>
+  </div>
+  <button class="add-btn" aria-label="Add Tuna Temaki to cart">+</button>
+</div>
+
+
+<!-- Item: Salmon Temaki -->
+  <div class="menu-card" tabindex="0" data-category="temaki pieces">
+  <picture>
+    <source srcset="Products/SalmonTemaki.jpg" type="image/webp">
+    <source srcset="Products/SalmonTemaki.jpg" type="image/jpeg">
+    <img
+      src="Products/SalmonTemaki.jpg"
+      alt="SalmonTemaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Salmon Temaki</h3>
+    <span class="price">Price: 81000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Salmon Temaki to cart">+</button>
+</div>
+
+
+<!-- Item: Crab Temaki -->
+  <div class="menu-card" tabindex="0" data-category="temaki pieces">
+  <picture>
+    <source srcset="Products/CrabTemaki.jpg" type="image/webp">
+    <source srcset="Products/CrabTemaki.jpg" type="image/jpeg">
+    <img
+      src="Products/CrabTemaki.jpg"
+      alt="CrabTemaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crab Temaki</h3>
+    <span class="price">Price: 63000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crab Temaki to cart">+</button>
+</div>
+
+
+<!-- Item: Vegetable Temaki -->
+  <div class="menu-card" tabindex="0" data-category="temaki pieces">
+  <picture>
+    <source srcset="Products/VegetableTemaki.jpg" type="image/webp">
+    <source srcset="Products/VegetableTemaki.jpg" type="image/jpeg">
+    <img
+      src="Products/VegetableTemaki.jpg"
+      alt="VegetableTemaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Vegetable Temaki</h3>
+    <span class="price">Price: 68000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Vegetable Temaki to cart">+</button>
+</div>
+
+
+<!-- Item: Dynamite shrimp temaki -->
+  <div class="menu-card" tabindex="0" data-category="temaki pieces">
+  <picture>
+    <source srcset="Products/DynamiteShrimpTemaki.jpg" type="image/webp">
+    <source srcset="Products/DynamiteShrimpTemaki.jpg" type="image/jpeg">
+    <img
+      src="Products/DynamiteShrimpTemaki.jpg"
+      alt="DynamiteShrimpTemaki"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Dynamite shrimp temaki</h3>
+    <span class="price">Price: 63500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Dynamite shrimp temaki to cart">+</button>
+</div>
+
+
+<!-- Item: nigiri Crab -->
+  <div class="menu-card" tabindex="0" data-category="nigiri 2 pieces">
+  <picture>
+    <source srcset="Products/NigiriCrab.jpg" type="image/webp">
+    <source srcset="Products/NigiriCrab.jpg" type="image/jpeg">
+    <img
+      src="Products/NigiriCrab.jpg"
+      alt="NigiriCrab"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>nigiri Crab</h3>
+    <span class="price">Price: 27600</span>
+  </div>
+  <button class="add-btn" aria-label="Add nigiri Crab to cart">+</button>
+</div>
+
+
+<!-- Item: nigiri Salmon -->
+  <div class="menu-card" tabindex="0" data-category="nigiri 2 pieces">
+  <picture>
+    <source srcset="Products/NigiriSalmon.jpg" type="image/webp">
+    <source srcset="Products/NigiriSalmon.jpg" type="image/jpeg">
+    <img
+      src="Products/NigiriSalmon.jpg"
+      alt="NigiriSalmon"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>nigiri Salmon</h3>
+    <span class="price">Price: 64800</span>
+  </div>
+  <button class="add-btn" aria-label="Add nigiri Salmon to cart">+</button>
+</div>
+
+
+<!-- Item: nigiri Shrimp -->
+  <div class="menu-card" tabindex="0" data-category="nigiri 2 pieces">
+  <picture>
+    <source srcset="Products/NigiriShrimp.jpg" type="image/webp">
+    <source srcset="Products/NigiriShrimp.jpg" type="image/jpeg">
+    <img
+      src="Products/NigiriShrimp.jpg"
+      alt="NigiriShrimp"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>nigiri Shrimp</h3>
+    <span class="price">Price: 40000</span>
+  </div>
+  <button class="add-btn" aria-label="Add nigiri Shrimp to cart">+</button>
+</div>
+
+
+<!-- Item: nigiri Tuna -->
+  <div class="menu-card" tabindex="0" data-category="nigiri 2 pieces">
+  <picture>
+    <source srcset="Products/NigiriTuna.jpg" type="image/webp">
+    <source srcset="Products/NigiriTuna.jpg" type="image/jpeg">
+    <img
+      src="Products/NigiriTuna.jpg"
+      alt="NigiriTuna"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>nigiri Tuna</h3>
+    <span class="price">Price: 64800</span>
+  </div>
+  <button class="add-btn" aria-label="Add nigiri Tuna to cart">+</button>
+</div>
+
+
+<!-- Item: Tuna -->
+  <div class="menu-card" tabindex="0" data-category="sashimi 3 pieces">
+  <picture>
+    <source srcset="Products/Tuna.jpg" type="image/webp">
+    <source srcset="Products/Tuna.jpg" type="image/jpeg">
+    <img
+      src="Products/Tuna.jpg"
+      alt="Tuna"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Tuna</h3>
+    <span class="price">Price: 85000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Tuna to cart">+</button>
+</div>
+
+
+<!-- Item: Salmon -->
+  <div class="menu-card" tabindex="0" data-category="sashimi 3 pieces">
+  <picture>
+    <source srcset="Products/Salmon.jpg" type="image/webp">
+    <source srcset="Products/Salmon.jpg" type="image/jpeg">
+    <img
+      src="Products/Salmon.jpg"
+      alt="Salmon"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Salmon</h3>
+    <span class="price">Price: 85000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Salmon to cart">+</button>
+</div>
+
+
+<!-- Item: Crabsticks -->
+  <div class="menu-card" tabindex="0" data-category="sashimi 3 pieces">
+  <picture>
+    <source srcset="Products/Crabsticks.jpg" type="image/webp">
+    <source srcset="Products/Crabsticks.jpg" type="image/jpeg">
+    <img
+      src="Products/Crabsticks.jpg"
+      alt="Crabsticks"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crabsticks</h3>
+    <span class="price">Price: 32000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crabsticks to cart">+</button>
+</div>
+
+
+<!-- Item: Spisy crab burger -->
+  <div class="menu-card" tabindex="0" data-category="sushi burger">
+  <picture>
+    <source srcset="Products/SpisyCrabBurger.jpg" type="image/webp">
+    <source srcset="Products/SpisyCrabBurger.jpg" type="image/jpeg">
+    <img
+      src="Products/SpisyCrabBurger.jpg"
+      alt="SpisyCrabBurger"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Spisy crab burger</h3>
+    <span class="price">Price: 64500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Spisy crab burger to cart">+</button>
+</div>
+
+
+<!-- Item: Dynamite shripm burger -->
+  <div class="menu-card" tabindex="0" data-category="sushi burger">
+  <picture>
+    <source srcset="Products/DynamiteShripmBurger.jpg" type="image/webp">
+    <source srcset="Products/DynamiteShripmBurger.jpg" type="image/jpeg">
+    <img
+      src="Products/DynamiteShripmBurger.jpg"
+      alt="DynamiteShripmBurger"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Dynamite shripm burger</h3>
+    <span class="price">Price: 66000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Dynamite shripm burger to cart">+</button>
+</div>
+
+
+<!-- Item: Dynamite fish burger -->
+  <div class="menu-card" tabindex="0" data-category="sushi burger">
+  <picture>
+    <source srcset="Products/DynamiteFishBurger.jpg" type="image/webp">
+    <source srcset="Products/DynamiteFishBurger.jpg" type="image/jpeg">
+    <img
+      src="Products/DynamiteFishBurger.jpg"
+      alt="DynamiteFishBurger"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Dynamite fish burger</h3>
+    <span class="price">Price: 57000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Dynamite fish burger to cart">+</button>
+</div>
+
+
+<!-- Item: Berries Mix -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/BerriesMix.jpg" type="image/webp">
+    <source srcset="Products/BerriesMix.jpg" type="image/jpeg">
+    <img
+      src="Products/BerriesMix.jpg"
+      alt="BerriesMix"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Berries Mix</h3>
+    <span class="price">Price: 40000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Berries Mix to cart">+</button>
+</div>
+
+
+<!-- Item: Tropical fruit mix -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/TropicalFruitMix.jpg" type="image/webp">
+    <source srcset="Products/TropicalFruitMix.jpg" type="image/jpeg">
+    <img
+      src="Products/TropicalFruitMix.jpg"
+      alt="TropicalFruitMix"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Tropical fruit mix</h3>
+    <span class="price">Price: 50000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Tropical fruit mix to cart">+</button>
+</div>
+
+
+<!-- Item: Pinacolada -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Pinacolada.jpg" type="image/webp">
+    <source srcset="Products/Pinacolada.jpg" type="image/jpeg">
+    <img
+      src="Products/Pinacolada.jpg"
+      alt="Pinacolada"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Pinacolada</h3>
+    <span class="price">Price: 50000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Pinacolada to cart">+</button>
+</div>
+
+
+<!-- Item: Icepresso -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Icepresso.jpg" type="image/webp">
+    <source srcset="Products/Icepresso.jpg" type="image/jpeg">
+    <img
+      src="Products/Icepresso.jpg"
+      alt="Icepresso"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Icepresso</h3>
+    <span class="price">Price: 35000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Icepresso to cart">+</button>
+</div>
+
+
+<!-- Item: Big\small Water -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Big\smallWater.jpg" type="image/webp">
+    <source srcset="Products/Big\smallWater.jpg" type="image/jpeg">
+    <img
+      src="Products/Big\smallWater.jpg"
+      alt="Big\smallWater"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Big\small Water</h3>
+    <span class="price">Price: 9000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Big\small Water to cart">+</button>
+</div>
+
+
+<!-- Item: Strawberry -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Strawberry.jpg" type="image/webp">
+    <source srcset="Products/Strawberry.jpg" type="image/jpeg">
+    <img
+      src="Products/Strawberry.jpg"
+      alt="Strawberry"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Strawberry</h3>
+    <span class="price">Price: 34000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Strawberry to cart">+</button>
+</div>
+
+
+<!-- Item: Peach -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Peach.jpg" type="image/webp">
+    <source srcset="Products/Peach.jpg" type="image/jpeg">
+    <img
+      src="Products/Peach.jpg"
+      alt="Peach"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Peach</h3>
+    <span class="price">Price: 25500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Peach to cart">+</button>
+</div>
+
+
+<!-- Item: Orange -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Orange.jpg" type="image/webp">
+    <source srcset="Products/Orange.jpg" type="image/jpeg">
+    <img
+      src="Products/Orange.jpg"
+      alt="Orange"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Orange</h3>
+    <span class="price">Price: 34000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Orange to cart">+</button>
+</div>
+
+
+<!-- Item: Polo -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Polo.jpg" type="image/webp">
+    <source srcset="Products/Polo.jpg" type="image/jpeg">
+    <img
+      src="Products/Polo.jpg"
+      alt="Polo"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Polo</h3>
+    <span class="price">Price: 24000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Polo to cart">+</button>
+</div>
+
+
+<!-- Item: Ice tea -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/IceTea.jpg" type="image/webp">
+    <source srcset="Products/IceTea.jpg" type="image/jpeg">
+    <img
+      src="Products/IceTea.jpg"
+      alt="IceTea"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Ice tea</h3>
+    <span class="price">Price: 29500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Ice tea to cart">+</button>
+</div>
+
+
+<!-- Item: Pepsi / 7up -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Pepsi/7up.jpg" type="image/webp">
+    <source srcset="Products/Pepsi/7up.jpg" type="image/jpeg">
+    <img
+      src="Products/Pepsi/7up.jpg"
+      alt="Pepsi/7up"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Pepsi / 7up</h3>
+    <span class="price">Price: 25000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Pepsi / 7up to cart">+</button>
+</div>
+
+
+<!-- Item: Fanta -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Fanta.jpg" type="image/webp">
+    <source srcset="Products/Fanta.jpg" type="image/jpeg">
+    <img
+      src="Products/Fanta.jpg"
+      alt="Fanta"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Fanta</h3>
+    <span class="price">Price: 15000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Fanta to cart">+</button>
+</div>
+
+
+<!-- Item: Sprite -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/Sprite.jpg" type="image/webp">
+    <source srcset="Products/Sprite.jpg" type="image/jpeg">
+    <img
+      src="Products/Sprite.jpg"
+      alt="Sprite"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Sprite</h3>
+    <span class="price">Price: 15000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Sprite to cart">+</button>
+</div>
+
+
+<!-- Item: Coca cola -->
+  <div class="menu-card" tabindex="0" data-category="cold drinks">
+  <picture>
+    <source srcset="Products/CocaCola.jpg" type="image/webp">
+    <source srcset="Products/CocaCola.jpg" type="image/jpeg">
+    <img
+      src="Products/CocaCola.jpg"
+      alt="CocaCola"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Coca cola</h3>
+    <span class="price">Price: 15000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Coca cola to cart">+</button>
+</div>
+
+
+<!-- Item: tea -->
+  <div class="menu-card" tabindex="0" data-category="hot drinks">
+  <picture>
+    <source srcset="Products/Tea.jpg" type="image/webp">
+    <source srcset="Products/Tea.jpg" type="image/jpeg">
+    <img
+      src="Products/Tea.jpg"
+      alt="Tea"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>tea</h3>
+    <span class="price">Price: 14000</span>
+  </div>
+  <button class="add-btn" aria-label="Add tea to cart">+</button>
+</div>
+
+
+<!-- Item: Flavored tea -->
+  <div class="menu-card" tabindex="0" data-category="hot drinks">
+  <picture>
+    <source srcset="Products/FlavoredTea.jpg" type="image/webp">
+    <source srcset="Products/FlavoredTea.jpg" type="image/jpeg">
+    <img
+      src="Products/FlavoredTea.jpg"
+      alt="FlavoredTea"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Flavored tea</h3>
+    <span class="price">Price: 20000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Flavored tea to cart">+</button>
+</div>
+
+
+<!-- Item: Espresso -->
+  <div class="menu-card" tabindex="0" data-category="hot drinks">
+  <picture>
+    <source srcset="Products/Espresso.jpg" type="image/webp">
+    <source srcset="Products/Espresso.jpg" type="image/jpeg">
+    <img
+      src="Products/Espresso.jpg"
+      alt="Espresso"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Espresso</h3>
+    <span class="price">Price: 19000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Espresso to cart">+</button>
+</div>
+
+
+<!-- Item: Turkish Coffee -->
+  <div class="menu-card" tabindex="0" data-category="hot drinks">
+  <picture>
+    <source srcset="Products/TurkishCoffee.jpg" type="image/webp">
+    <source srcset="Products/TurkishCoffee.jpg" type="image/jpeg">
+    <img
+      src="Products/TurkishCoffee.jpg"
+      alt="TurkishCoffee"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Turkish Coffee</h3>
+    <span class="price">Price: 17000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Turkish Coffee to cart">+</button>
+</div>
+
+
+<!-- Item: Spanish herbs -->
+  <div class="menu-card" tabindex="0" data-category="hot drinks">
+  <picture>
+    <source srcset="Products/SpanishHerbs.jpg" type="image/webp">
+    <source srcset="Products/SpanishHerbs.jpg" type="image/jpeg">
+    <img
+      src="Products/SpanishHerbs.jpg"
+      alt="SpanishHerbs"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Spanish herbs</h3>
+    <span class="price">Price: 20000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Spanish herbs to cart">+</button>
+</div>
+
+
+<!-- Item: Bonbon -->
+  <div class="menu-card" tabindex="0" data-category="extra">
+  <picture>
+    <source srcset="Products/Bonbon.jpg" type="image/webp">
+    <source srcset="Products/Bonbon.jpg" type="image/jpeg">
+    <img
+      src="Products/Bonbon.jpg"
+      alt="Bonbon"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Bonbon</h3>
+    <span class="price">Price: 30000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Bonbon to cart">+</button>
+</div>
+
+
+<!-- Item: Tobico -->
+  <div class="menu-card" tabindex="0" data-category="extra">
+  <picture>
+    <source srcset="Products/Tobico.jpg" type="image/webp">
+    <source srcset="Products/Tobico.jpg" type="image/jpeg">
+    <img
+      src="Products/Tobico.jpg"
+      alt="Tobico"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Tobico</h3>
+    <span class="price">Price: 35000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Tobico to cart">+</button>
+</div>
+
+
+<!-- Item: Ginger---- -->
+  <div class="menu-card" tabindex="0" data-category="extra">
+  <picture>
+    <source srcset="Products/Ginger.jpg" type="image/webp">
+    <source srcset="Products/Ginger.jpg" type="image/jpeg">
+    <img
+      src="Products/Ginger.jpg"
+      alt="Ginger"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Ginger----</h3>
+    <span class="price">Price: 15000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Ginger---- to cart">+</button>
+</div>
+
+
+<!-- Item: Crab---- -->
+  <div class="menu-card" tabindex="0" data-category="extra">
+  <picture>
+    <source srcset="Products/Crab.jpg" type="image/webp">
+    <source srcset="Products/Crab.jpg" type="image/jpeg">
+    <img
+      src="Products/Crab.jpg"
+      alt="Crab"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crab----</h3>
+    <span class="price">Price: 16000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crab---- to cart">+</button>
+</div>
+
+
+<!-- Item: Jalapeño pickled -->
+  <div class="menu-card" tabindex="0" data-category="extra">
+  <picture>
+    <source srcset="Products/JalapeñoPickled.jpg" type="image/webp">
+    <source srcset="Products/JalapeñoPickled.jpg" type="image/jpeg">
+    <img
+      src="Products/JalapeñoPickled.jpg"
+      alt="JalapeñoPickled"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Jalapeño pickled</h3>
+    <span class="price">Price: 13500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Jalapeño pickled to cart">+</button>
+</div>
+
+
+<!-- Item: Fried apple -->
+  <div class="menu-card" tabindex="0" data-category="sweets">
+  <picture>
+    <source srcset="Products/FriedApple.jpg" type="image/webp">
+    <source srcset="Products/FriedApple.jpg" type="image/jpeg">
+    <img
+      src="Products/FriedApple.jpg"
+      alt="FriedApple"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Fried apple</h3>
+    <span class="price">Price: 35000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Fried apple to cart">+</button>
+</div>
+
+
+<!-- Item: Mochi -->
+  <div class="menu-card" tabindex="0" data-category="sweets">
+  <picture>
+    <source srcset="Products/Mochi.jpg" type="image/webp">
+    <source srcset="Products/Mochi.jpg" type="image/jpeg">
+    <img
+      src="Products/Mochi.jpg"
+      alt="Mochi"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Mochi</h3>
+    <span class="price">Price: 48500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Mochi to cart">+</button>
+</div>
+
+
+<!-- Item: Ice Cream -->
+  <div class="menu-card" tabindex="0" data-category="sweets">
+  <picture>
+    <source srcset="Products/IceCream.jpg" type="image/webp">
+    <source srcset="Products/IceCream.jpg" type="image/jpeg">
+    <img
+      src="Products/IceCream.jpg"
+      alt="IceCream"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Ice Cream</h3>
+    <span class="price">Price: 48000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Ice Cream to cart">+</button>
+</div>
+
+
+<!-- Item: Salmon set -->
+  <div class="menu-card" tabindex="0" data-category="sushi set">
+  <picture>
+    <source srcset="Products/SalmonSet.jpg" type="image/webp">
+    <source srcset="Products/SalmonSet.jpg" type="image/jpeg">
+    <img
+      src="Products/SalmonSet.jpg"
+      alt="SalmonSet"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Salmon set</h3>
+    <span class="price">Price: 318500</span>
+  </div>
+  <button class="add-btn" aria-label="Add Salmon set to cart">+</button>
+</div>
+
+
+<!-- Item: Shrimp set -->
+  <div class="menu-card" tabindex="0" data-category="sushi set">
+  <picture>
+    <source srcset="Products/ShrimpSet.jpg" type="image/webp">
+    <source srcset="Products/ShrimpSet.jpg" type="image/jpeg">
+    <img
+      src="Products/ShrimpSet.jpg"
+      alt="ShrimpSet"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Shrimp set</h3>
+    <span class="price">Price: 217000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Shrimp set to cart">+</button>
+</div>
+
+
+<!-- Item: Spicy set -->
+  <div class="menu-card" tabindex="0" data-category="sushi set">
+  <picture>
+    <source srcset="Products/SpicySet.jpg" type="image/webp">
+    <source srcset="Products/SpicySet.jpg" type="image/jpeg">
+    <img
+      src="Products/SpicySet.jpg"
+      alt="SpicySet"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Spicy set</h3>
+    <span class="price">Price: 291000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Spicy set to cart">+</button>
+</div>
+
+
+<!-- Item: Crab set -->
+  <div class="menu-card" tabindex="0" data-category="sushi set">
+  <picture>
+    <source srcset="Products/CrabSet.jpg" type="image/webp">
+    <source srcset="Products/CrabSet.jpg" type="image/jpeg">
+    <img
+      src="Products/CrabSet.jpg"
+      alt="CrabSet"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crab set</h3>
+    <span class="price">Price: 154000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crab set to cart">+</button>
+</div>
+
+
+<!-- Item: Crazy set -->
+  <div class="menu-card" tabindex="0" data-category="sushi set">
+  <picture>
+    <source srcset="Products/CrazySet.jpg" type="image/webp">
+    <source srcset="Products/CrazySet.jpg" type="image/jpeg">
+    <img
+      src="Products/CrazySet.jpg"
+      alt="CrazySet"
+      loading="lazy"
+      width="80"
+      height="80"
+      class="menu-image"
+    >
+  </picture>
+  <div class="item-info">
+    <h3>Crazy set</h3>
+    <span class="price">Price: 155000</span>
+  </div>
+  <button class="add-btn" aria-label="Add Crazy set to cart">+</button>
+</div>
+
+
+  </div>
+
+  <!-- Mobile Bottom Nav -->
+  <nav class="bottom-nav">
+    <a href="#" class="active"><i class="fas fa-home"></i></a>
+    <a href="#"><i class="fas fa-search"></i></a>
+    <a href="#"><i class="fas fa-heart"></i></a>
+    <a href="#"><i class="fas fa-user"></i></a>
+  </nav>
+  <!-- Preload hero image -->
+
+
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>Your Cart</h2>
+      <ul id="cart-items">
+        </ul>
+      <div class="table-number-input">
+        <label for="table-number">Table Number:</label>
+        <input type="number" id="table-number" placeholder="Enter table number" maxlength="2" inputmode="numeric">
+      </div>
+      <div class="order-notes">
+        <label for="order-notes">Order Notes (Optional):</label>
+        <textarea id="order-notes" placeholder="Any special requests or notes..."></textarea>
+      </div>
+      <div class="cart-total">
+        <strong>Total: SYR <span id="total-price">0.00</span></strong>
+      </div>
+      <div id="qrcode-container" style="text-align: center; margin-top: 20px;">
+        <h3>Scan to View Order</h3>
+        <div id="qrcode"></div>
+      </div>
+      <button class="checkout-button">Checkout</button>
+    </div>
+  </div>
+
+<nav class="bottom-nav">
+  <a href="#" class="active"><i class="fas fa-home"></i></a>
+  <a href="#"><i class="fas fa-search"></i></a>
+  <a href="#"><i class="fas fa-heart"></i></a>
+  <a href="#"><i class="fas fa-user"></i></a>
+</nav>
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

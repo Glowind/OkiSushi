@@ -1,0 +1,434 @@
+
+000000000000000000000000000000000000000**كل الأصناف (All Items)
+000000000000000000000000000000000000000**
+
+* Crab salad
+* Crab Salad Small
+* Tuna salad
+* Ghazal fish salad
+* Mixed salad
+* Kimichi salad
+* Salmon Salad
+* Vegetable salad
+* Spring roll (vegetables)
+* Spring roll (chicken)
+* Deep fried squid
+* Steamed chiken dumpling
+* Steamed beef dumpling
+* Steamed shrimp dumpling
+* Fried chicken dumpling
+* Fried beef dumpling
+* Fried shrimp dumpling
+* Dynamite shrimp
+* Tempura
+* Edamame
+* Sushi Fries
+* Vegetable soup
+* Hot&sour vegetable
+* Hot & sour chicken
+* Hot & sour shrimp
+* Wonton chicken soup
+* Miso soup
+* Wonton shrimp soup
+* Tom yum soup
+* Ramen soup
+* Vegetable noodles
+* Soft noodles chicken
+* Soft noodles beef
+* Soft noodles shrimp
+* Oki noodles (shrimp&squid)
+* Steamed rice
+* Vegetable fried rice
+* Egg fried rice vegetable
+* Egg fried rice chicken
+* Egg fried rice beef
+* Egg fried rice shrimp
+* Chicken cubes with cashew nuts
+* Chicken with black mushroom &bamboo
+* Chicken with ginger & onion
+* Japanese chicken curry
+* Beef with green pepper
+* Slice beef with bumboo & black mushroom
+* Slice beef with ginger & onion
+* Beef with cashew
+* Prawns with cashew nuts
+* Prawns with mushroom &bamboo
+* Prawns with vegetable
+* Futo salmon
+* Futo tuna
+* Futo shrimp
+* Futo hawai
+* Avocado Maki
+* Kappa Maki
+* Mango Maki
+* Cheese Maki
+* Crab Maki
+* Shrimp Maki
+* Tuna Maki
+* Salmon Maki
+* Baby corn Maki
+* Salmon skin Maki
+* Smoked salmon
+* Philli roll
+* Spicy salmon
+* Spicy Tuna
+* Crispy shrimp
+* American roll
+* California roll
+* Mango California roll
+* Sesame roll
+* Mango Wrap
+* Rainbow salmon
+* Volcano roll
+* Crazy Maki
+* Dragon roll
+* Rose Dragon
+* Oki Dragon
+* Limeyaki
+* Wakami
+* Chilly cheese
+* Crunchy crab
+* Super dynamite
+* Crazy shrimp
+* Kiss of fire
+* Rainbow
+* Wasabi roll
+* Tuna Temaki
+* Salmon Temaki
+* Crab Temaki
+* Vegetable Temaki
+* Dynamite shrimp temaki
+* nigiri Crab
+* nigiri Salmon
+* nigiri Shrimp
+* nigiri Tuna
+* Tuna
+* Salmon
+* Crabsticks
+* Spisy crab burger
+* Dynamite shripm burger
+* Dynamite fish burger
+* Berries Mix
+* Tropical fruit mix
+* Pinacolada
+* Icepresso
+* Big\small Water
+* Strawberry
+* Peach
+* Orange
+* Polo
+* Ice tea
+* Pepsi / 7up
+* Fanta
+* Sprite
+* Coca cola
+* tea
+* Flavored tea
+* Espresso
+* Turkish Coffee
+* Spanish herbs
+* Bonbon
+* Tobico
+* Ginger----
+* Crab----
+* Jalapeño pickled
+* Fried apple
+* Mochi
+* Ice Cream
+* Salmon set
+* Shrimp set
+* Spicy set
+* Crab set
+* Crazy set
+
+
+000000000000000000000000000000000000000**salads
+000000000000000000000000000000000000000**
+
+* Crab salad
+* Crab Salad Small
+* Tuna salad
+* Ghazal fish salad
+* Mixed salad
+* Kimichi salad
+* Salmon Salad
+* Vegetable salad
+
+
+000000000000000000000000000000000000000**Appetizer
+000000000000000000000000000000000000000**
+
+* Spring roll (vegetables)
+* Spring roll (chicken)
+* Deep fried squid
+* Steamed chiken dumpling
+* Steamed beef dumpling
+* Steamed shrimp dumpling
+* Fried chicken dumpling
+* Fried beef dumpling
+* Fried shrimp dumpling
+* Dynamite shrimp
+* Tempura
+* Edamame
+* Sushi Fries
+
+
+000000000000000000000000000000000000000**Hot Menu soups
+000000000000000000000000000000000000000**
+
+* Vegetable soup
+* Hot&sour vegetable
+* Hot & sour chicken
+* Hot & sour shrimp
+* Wonton chicken soup
+* Miso soup
+* Wonton shrimp soup
+* Tom yum soup
+* Ramen soup
+
+
+000000000000000000000000000000000000000**Noodles
+000000000000000000000000000000000000000**
+
+* Vegetable noodles
+* Soft noodles chicken
+* Soft noodles beef
+* Soft noodles shrimp
+* Oki noodles (shrimp&squid)
+
+
+000000000000000000000000000000000000000**Rice
+000000000000000000000000000000000000000**
+
+* Steamed rice
+* Vegetable fried rice
+* Egg fried rice vegetable
+* Egg fried rice chicken
+* Egg fried rice beef
+* Egg fried rice shrimp
+
+
+000000000000000000000000000000000000000**Chicken
+000000000000000000000000000000000000000**
+
+* Chicken cubes with cashew nuts
+* Chicken with black mushroom &bamboo
+* Chicken with ginger & onion
+* Japanese chicken curry
+
+
+000000000000000000000000000000000000000**Beef
+000000000000000000000000000000000000000**
+
+* Beef with green pepper
+* Slice beef with bumboo & black mushroom
+* Slice beef with ginger & onion
+* Beef with cashew
+
+
+000000000000000000000000000000000000000**Sea food
+000000000000000000000000000000000000000**
+
+* Prawns with cashew nuts
+* Prawns with mushroom &bamboo
+* Prawns with vegetable
+* Futo salmon
+* Futo tuna
+* Futo shrimp
+* Futo hawai
+* Avocado Maki
+* Kappa Maki
+* Mango Maki
+* Cheese Maki
+* Crab Maki
+* Shrimp Maki
+* Tuna Maki
+* Salmon Maki
+* Baby corn Maki
+* Salmon skin Maki
+* Smoked salmon
+* Philli roll
+* Spicy salmon
+* Spicy Tuna
+* Crispy shrimp
+* American roll
+* California roll
+* Mango California roll
+* Sesame roll
+* Mango Wrap
+* Rainbow salmon
+* Volcano roll
+* Crazy Maki
+* Dragon roll
+* Rose Dragon
+* Oki Dragon
+* Limeyaki
+* Wakami
+* Chilly cheese
+* Crunchy crab
+* Super dynamite
+* Crazy shrimp
+* Kiss of fire
+* Rainbow
+* Wasabi roll
+* Tuna Temaki
+* Salmon Temaki
+* Crab Temaki
+* Vegetable Temaki
+* Dynamite shrimp temaki
+* nigiri Crab
+* nigiri Salmon
+* nigiri Shrimp
+* nigiri Tuna
+* Tuna
+* Salmon
+* Crabsticks
+* Spisy crab burger
+* Dynamite shripm burger
+* Dynamite fish burger
+
+
+000000000000000000000000000000000000000**Futomaki 4 pieces
+000000000000000000000000000000000000000**
+
+* Futo salmon
+* Futo tuna
+* Futo shrimp
+* Futo hawai
+
+
+000000000000000000000000000000000000000**Hose maki 4 pieces
+000000000000000000000000000000000000000**
+
+* Avocado Maki
+* Kappa Maki
+* Mango Maki
+* Cheese Maki
+* Crab Maki
+* Shrimp Maki
+* Tuna Maki
+* Salmon Maki
+* Baby corn Maki
+* Salmon skin Maki
+
+
+000000000000000000000000000000000000000**Urmaki 4 pieces
+000000000000000000000000000000000000000**
+
+* Smoked salmon
+* Philli roll
+* Spicy salmon
+* Spicy Tuna
+* Crispy shrimp
+* American roll
+* California roll
+* Mango California roll
+* Sesame roll
+* Mango Wrap
+* Rainbow salmon
+* Volcano roll
+* Crazy Maki
+* Dragon roll
+* Rose Dragon
+* Oki Dragon
+* Limeyaki
+* Wakami
+* Chilly cheese
+* Crunchy crab
+* Super dynamite
+* Crazy shrimp
+* Kiss of fire
+* Rainbow
+* Wasabi roll
+
+
+000000000000000000000000000000000000000**Temaki pieces
+000000000000000000000000000000000000000**
+
+* Tuna Temaki
+* Salmon Temaki
+* Crab Temaki
+* Vegetable Temaki
+* Dynamite shrimp temaki
+
+
+000000000000000000000000000000000000000**Nigiri 2 pieces
+000000000000000000000000000000000000000**
+
+* nigiri Crab
+* nigiri Salmon
+* nigiri Shrimp
+* nigiri Tuna
+
+
+000000000000000000000000000000000000000**Sashimi 3 pieces
+000000000000000000000000000000000000000**
+
+* Tuna
+* Salmon
+* Crabsticks
+
+
+000000000000000000000000000000000000000**Sushi Burger
+000000000000000000000000000000000000000**
+
+* Spisy crab burger
+* Dynamite shripm burger
+* Dynamite fish burger
+
+
+000000000000000000000000000000000000000**Cold drinks
+000000000000000000000000000000000000000**
+
+* Berries Mix
+* Tropical fruit mix
+* Pinacolada
+* Icepresso
+* Big\small Water
+* Strawberry
+* Peach
+* Orange
+* Polo
+* Ice tea
+* Pepsi / 7up
+* Fanta
+* Sprite
+* Coca cola
+
+
+000000000000000000000000000000000000000**hot drinks
+000000000000000000000000000000000000000**
+
+* tea
+* Flavored tea
+* Espresso
+* Turkish Coffee
+* Spanish herbs
+
+
+000000000000000000000000000000000000000**Extra
+000000000000000000000000000000000000000**
+
+* Bonbon
+* Tobico
+* Ginger----
+* Crab----
+* Jalapeño pickled
+
+
+000000000000000000000000000000000000000**Sweets
+000000000000000000000000000000000000000**
+
+* Fried apple
+* Mochi
+* Ice Cream
+
+
+000000000000000000000000000000000000000**Sushi set
+000000000000000000000000000000000000000**
+
+* Salmon set
+* Shrimp set
+* Spicy set
+* Crab set
+* Crazy set

@@ -1,0 +1,138 @@
+Crab salad, 80000, CrabSalad, salads
+Crab Salad Small, 50000, CrabSaladSmall, salads
+Tuna salad, 233000, TunaSalad, salads
+Ghazal fish salad, 150000, GhazalFishSalad, salads
+Mixed salad, 240000, MixedSalad, salads
+Kimichi salad, 20000, KimichiSalad, salads
+Salmon Salad, 237000, SalmonSalad, salads
+Vegetable salad, 65000, VegetableSalad, salads
+Spring roll (vegetables), 25000, SpringRollVegetables, appetizer
+Spring roll (chicken), 38500, SpringRollChicken, appetizer
+Deep fried squid, 135000, DeepFriedSquid, appetizer
+Steamed chiken dumpling, 38000, SteamedChikenDumpling, appetizer
+Steamed beef dumpling, 59000, SteamedBeefDumpling, appetizer
+Steamed shrimp dumpling, 65000, SteamedShrimpDumpling, appetizer
+Fried chicken dumpling, 40000, FriedChickenDumpling, appetizer
+Fried beef dumpling, 66000, FriedBeefDumpling, appetizer
+Fried shrimp dumpling, 76000, FriedShrimpDumpling, appetizer
+Dynamite shrimp, 82000, DynamiteShrimp, appetizer
+Tempura, 77000, Tempura, appetizer
+Edamame, 49000, Edamame, appetizer
+Sushi Fries, 91000, SushiFries, appetizer
+Vegetable soup, 35000, VegetableSoup, hot menu soups
+Hot&sour vegetable, 35000, Hot&sourVegetable, hot menu soups
+Hot & sour chicken, 43000, Hot&SourChicken, hot menu soups
+Hot & sour shrimp, 62000, Hot&SourShrimp, hot menu soups
+Wonton chicken soup, 28000, WontonChickenSoup, hot menu soups
+Miso soup, 34000, MisoSoup, hot menu soups
+Wonton shrimp soup, 48000, WontonShrimpSoup, hot menu soups
+Tom yum soup, 69500, TomYumSoup, hot menu soups
+Ramen soup, 72000, RamenSoup, hot menu soups
+Vegetable noodles, 42000, VegetableNoodles, noodles
+Soft noodles chicken, 61000, SoftNoodlesChicken, noodles
+Soft noodles beef, 88000, SoftNoodlesBeef, noodles
+Soft noodles shrimp, 89000, SoftNoodlesShrimp, noodles
+Oki noodles (shrimp&squid), 110000, OkiNoodles, noodles
+Steamed rice, 9500, SteamedRice, rice
+Vegetable fried rice, 32500, VegetableFriedRice, rice
+Egg fried rice vegetable, 46500, EggFriedRiceVegetable, rice
+Egg fried rice chicken, 72000, EggFriedRiceChicken, rice
+Egg fried rice beef, 106000, EggFriedRiceBeef, rice
+Egg fried rice shrimp, 114000, EggFriedRiceShrimp, rice
+Chicken cubes with cashew nuts, 89000, ChickenCubesWithCashewNuts, chicken
+Chicken with black mushroom &bamboo, 109000, ChickenWithBlackMushroom&bamboo, chicken
+Chicken with ginger & onion, 80000, ChickenWithGinger&Onion, chicken
+Japanese chicken curry, 87000, JapaneseChickenCurry, chicken
+Beef with green pepper, 130000, BeefWithGreenPepper, beef
+Slice beef with bumboo & black mushroom, 173000, SliceBeefWithBumboo&BlackMushroom, beef
+Slice beef with ginger & onion, 138000, SliceBeefWithGinger&Onion, beef
+Beef with cashew, 151000, BeefWithCashew, beef
+Prawns with cashew nuts, 181000, PrawnsWithCashewNuts, sea food
+Prawns with mushroom &bamboo, 203000, PrawnsWithMushroom&bamboo, sea food
+Prawns with vegetable, 165000, PrawnsWithVegetable, sea food
+Futo salmon, 52000, FutoSalmon, sea food
+Futo tuna, 52000, FutoTuna, sea food
+Futo shrimp, 29300, FutoShrimp, sea food
+Futo hawai, 65200, FutoHawai, sea food
+Avocado Maki, 23000, AvocadoMaki, sea food
+Kappa Maki, 14400, KappaMaki, sea food
+Mango Maki, 27000, MangoMaki, sea food
+Cheese Maki, 27000, CheeseMaki, sea food
+Crab Maki, 26300, CrabMaki, sea food
+Shrimp Maki, 26200, ShrimpMaki, sea food
+Tuna Maki, 52000, TunaMaki, sea food
+Salmon Maki, 52000, SalmonMaki, sea food
+Baby corn Maki, 27500, BabyCornMaki, sea food
+Salmon skin Maki, 20500, SalmonSkinMaki, sea food
+Smoked salmon, 90500, SmokedSalmon, sea food
+Philli roll, 84000, PhilliRoll, sea food
+Spicy salmon, 80000, SpicySalmon, sea food
+Spicy Tuna, 80000, SpicyTuna, sea food
+Crispy shrimp, 55000, CrispyShrimp, sea food
+American roll, 47000, AmericanRoll, sea food
+California roll, 44000, CaliforniaRoll, sea food
+Mango California roll, 36500, MangoCaliforniaRoll, sea food
+Sesame roll, 30000, SesameRoll, sea food
+Mango Wrap, 59000, MangoWrap, sea food
+Rainbow salmon, 69800, RainbowSalmon, sea food
+Volcano roll, 50600, VolcanoRoll, sea food
+Crazy Maki, 43800, CrazyMaki, sea food
+Dragon roll, 48500, DragonRoll, sea food
+Rose Dragon, 45000, RoseDragon, sea food
+Oki Dragon, 47500, OkiDragon, sea food
+Limeyaki, 65000, Limeyaki, sea food
+Wakami, 65000, Wakami, sea food
+Chilly cheese, 42500, ChillyCheese, sea food
+Crunchy crab, 39000, CrunchyCrab, sea food
+Super dynamite, 59000, SuperDynamite, sea food
+Crazy shrimp, 51500, CrazyShrimp, sea food
+Kiss of fire, 77500, KissOfFire, sea food
+Rainbow, 60000, Rainbow, sea food
+Wasabi roll, 69800, WasabiRoll, sea food
+Tuna Temaki, 73200, TunaTemaki, temaki pieces
+Salmon Temaki, 81000, SalmonTemaki, temaki pieces
+Crab Temaki, 63000, CrabTemaki, temaki pieces
+Vegetable Temaki, 68000, VegetableTemaki, temaki pieces
+Dynamite shrimp temaki, 63500, DynamiteShrimpTemaki, temaki pieces
+nigiri Crab, 27600, NigiriCrab, nigiri 2 pieces
+nigiri Salmon, 64800, NigiriSalmon, nigiri 2 pieces
+nigiri Shrimp, 40000, NigiriShrimp, nigiri 2 pieces
+nigiri Tuna, 64800, NigiriTuna, nigiri 2 pieces
+Tuna, 85000, Tuna, sashimi 3 pieces
+Salmon, 85000, Salmon, sashimi 3 pieces
+Crabsticks, 32000, Crabsticks, sashimi 3 pieces
+Spisy crab burger, 64500, SpisyCrabBurger, sushi burger
+Dynamite shripm burger, 66000, DynamiteShripmBurger, sushi burger
+Dynamite fish burger, 57000, DynamiteFishBurger, sushi burger
+Berries Mix, 40000, BerriesMix, cold drinks
+Tropical fruit mix, 50000, TropicalFruitMix, cold drinks
+Pinacolada, 50000, Pinacolada, cold drinks
+Icepresso, 35000, Icepresso, cold drinks
+Big\small Water, 9000, Big\smallWater, cold drinks
+Strawberry, 34000, Strawberry, cold drinks
+Peach, 25500, Peach, cold drinks
+Orange, 34000, Orange, cold drinks
+Polo, 24000, Polo, cold drinks
+Ice tea, 29500, IceTea, cold drinks
+Pepsi / 7up, 25000, Pepsi/7up, cold drinks
+Fanta, 15000, Fanta, cold drinks
+Sprite, 15000, Sprite, cold drinks
+Coca cola, 15000, CocaCola, cold drinks
+tea, 14000, Tea, hot drinks
+Flavored tea, 20000, FlavoredTea, hot drinks
+Espresso, 19000, Espresso, hot drinks
+Turkish Coffee, 17000, TurkishCoffee, hot drinks
+Spanish herbs, 20000, SpanishHerbs, hot drinks
+Bonbon, 30000, Bonbon, extra
+Tobico, 35000, Tobico, extra
+Ginger----, 15000, Ginger, extra
+Crab----, 16000, Crab, extra
+Jalapeño pickled, 13500, JalapeñoPickled, extra
+Fried apple, 35000, FriedApple, sweets
+Mochi, 48500, Mochi, sweets
+Ice Cream, 48000, IceCream, sweets
+Salmon set, 318500, SalmonSet, sushi set
+Shrimp set, 217000, ShrimpSet, sushi set
+Spicy set, 291000, SpicySet, sushi set
+Crab set, 154000, CrabSet, sushi set
+Crazy set, 155000, CrazySet, sushi set
